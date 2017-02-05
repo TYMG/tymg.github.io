@@ -1,7 +1,7 @@
 ---
-layout:post
-title:"Fuck the superbowl, This some bullshit"
-date:2017-02-17
+layout: post
+title:" Fuck the superbowl, This some bullshit"
+date: 2017-02-17
 ---
 
 Patriots vs Falcons

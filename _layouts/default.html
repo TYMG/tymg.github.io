@@ -1,28 +1,37 @@
 <!DOCTYPE html>
-	<html>
-		<head>
-			<title>{{ page.title }}</title>
-			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/css/main.css">
-		</head>
-		<body>
-			<nav>
-	    		<ul>
-	        		<li><a href="/">Home</a></li>
-		        	<li><a href="/about">About</a></li>
-	        		<li><a href="/cv">CV</a></li>
-	        		<li><a href="/blog">Blog</a></li>
-	    		</ul>
-			</nav>
-			<div class="container">
-			
-			{{ content }}
-			
-			</div><!-- /.container -->
-			<footer>
-	    		<ul>
-	        		<li><a href="https://github.com/TYMG">github.com/TYMG</a></li>
-				</ul>
-			</footer>
-		</body>
-	</html>
+<html>
+
+<head>
+	<title>{{ page.title }}</title>
+	<!-- Style Scripts -->
+	<script src="/vendor/js/jquery.min.js"></script>
+	<script src="/vendor/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="/vendor/js/purify.min.js"></script>
+	<!-- link to main stylesheet -->
+	<link rel="stylesheet" href="/vendor/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="/css/main.css">
+</head>
+
+<body>
+	<nav>
+		<ul>
+			<li><a href="/">Home</a></li>
+			<li><a href="/about">About</a></li>
+			<li><a href="/cv">CV</a></li>
+			<li><a href="/blog">Blog</a></li>
+		</ul>
+	</nav>
+	<div class="container content">
+
+		{{ content }}
+
+	</div>
+	<!-- /.container -->
+	<footer>
+		<ul>
+			<li><a href="https://github.com/TYMG">github.com/TYMG</a></li>
+		</ul>
+	</footer>
+</body>
+
+</html>

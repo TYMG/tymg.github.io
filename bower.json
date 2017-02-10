@@ -1,0 +1,23 @@
+{
+  "name": "tymg.github.io",
+  "homepage": "https://github.com/TYMG/tymg.github.io",
+  "authors": [
+    "Matthew Green <verde.mateo.a@gmail.com>"
+  ],
+  "description": "Matt's Github Page",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "DOMPurify": "https://github.com/cure53/DOMPurify.git#^0.8.4",
+    "bootstrap": "^3.3.7"
+  }
+}

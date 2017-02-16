@@ -35,6 +35,12 @@ module.exports = (grunt) ->
             cwd: "bower_components/DOMPurify/dist/"
             src: "purify.min.js"
             dest: "vendor/js/"
+            },
+            {
+            expand: true
+            cwd: "bower_components/animate.css/"
+            src: "animate.min.css"
+            dest: "vendor/css/"
             }]
     exec:
       jekyll:
@@ -65,6 +71,9 @@ module.exports = (grunt) ->
           port: 4000
           base: '_site'
           livereload: true
+    livereload:
+        options:
+            open:'127.0.0.1:4000'
 
   grunt.registerTask "build", [
     "copy"

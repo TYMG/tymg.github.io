@@ -1,0 +1,18 @@
+.blurb{
+    padding-top:5%;
+    padding-bottom: 5%;
+    height: 100%;
+    margin:3% 13%;
+}
+
+h1.home-text-sen-dev{
+    font-family: 'Press Start 2P', cursive;
+}
+
+h1.home-text-grt-comm{
+    font-family: 'Tangerine', cursive;
+}
+
+h1.home-text-divrst{
+    font-family: 'Barrio', cursive;
+}

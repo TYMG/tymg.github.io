@@ -1,0 +1,23 @@
+div.about-me {
+	width: 100%;
+	height: 100%;
+	padding-top:20px;
+}
+
+div.about-me-circle-div {
+	float: left;
+	width: 50%;
+	height: 50%;
+	shape-outside: square(); 
+}
+
+img.about-me-img{
+	float: inherit;
+	padding-left: 3%;
+	margin: 0% -3%;
+}
+
+p.about-me-text {
+	width: 100%;
+	height: 100%;
+}

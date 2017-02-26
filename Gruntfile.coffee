@@ -52,10 +52,14 @@ module.exports = (grunt) ->
       source:
         files: [
           "_drafts/**/*"
+          "portfolio/**/*"          
           "_includes/**/*"
           "_layouts/**/*"
           "_posts/**/*"
+          "about/**/*"
+          "blog/**/*"
           "css/**/*"
+          "cv/**/*"
           "js/**/*"
           "_config.yml"
           "*.html"

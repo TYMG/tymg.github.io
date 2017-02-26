@@ -5,6 +5,10 @@
     margin:3% 13%;
 }
 
+h1 {
+    font-size:5rem;
+}
+
 h1.home-text-sen-dev{
     font-family: 'Press Start 2P', cursive;
 }

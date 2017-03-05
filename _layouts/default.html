@@ -3,6 +3,7 @@
 
 <head>
 	<title>{{ page.title }}</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- Style Scripts -->
 	<script src="/vendor/js/jquery.min.js"></script>
 	<script src="/vendor/js/bootstrap.min.js"></script>
@@ -23,16 +24,18 @@
 </head>
 
 <body>
-	<nav>
-		<ul>
-			<li><a href="/">Home</a></li>
-			<li><a href="/about">About</a></li>
-			<li><a href="/cv">CV</a></li>
-			<li><a href="/blog">Blog</a></li>
-			<li><a href="/portfolio">Portfolio</a></li>
-		</ul>
-	</nav>
-	<div class="container">
+	<div class="nav-div">
+		<nav class="navbar-black">
+			<ul class="navbar-list">
+				<li><a href="/">Home</a></li>
+				<li><a href="/about">About</a></li>
+				<li><a href="/cv">CV</a></li>
+				<li><a href="/blog">Blog</a></li>
+				<li><a href="/portfolio">Portfolio</a></li>
+			</ul>
+		</nav>
+	</div>
+	<div class="default-content">
 
 		{{ content }}
 

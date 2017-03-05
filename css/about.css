@@ -1,10 +1,11 @@
+p{
+	font-size:1.5rem;
+}
 div.about-me {
-	width: 100%;
-	height: 100%;
-	padding-top:20px;
+	margin: 2rem;
 }
 
-div.about-me-circle-div {
+div.about-me-img-div {
 	float: left;
 	width: 50%;
 	height: 50%;
@@ -17,7 +18,24 @@ img.about-me-img{
 	margin: 0% -3%;
 }
 
-p.about-me-text {
-	width: 100%;
-	height: 100%;
-}
+/**
+RESPONSIVE LAYOUT CSS
+
+<370: Default
+370-500: Bigger Phone CSS
+501-750: Tablet CSS
+751+: Browser
+
+
+**/
+
+	 @media screen and (min-width: 376px) and (max-width: 750px) {
+              	p{
+                      font-size:1.75rem;
+                }
+      }
+    
+    @media screen and (min-width: 751px) {
+        p {font-size:2rem;}
+      }
+ 	

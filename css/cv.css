@@ -1,13 +1,50 @@
 div.cv-body {
-    padding:3rem;
+    padding: 5%;
+    width:95%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .cv-text{
-    font-size:2rem;
+    font-size:1.25rem;
 }
 
 h3.cv-sub-headers {
-    font-size:3rem;
+    font-size:2rem;
 }
+
+/**
+RESPONSIVE LAYOUT CSS
+
+<370: Default
+370-500: Bigger Phone CSS
+501-750: Tablet CSS
+751+: Browser
+
+**/
+
+	 @media screen and (min-width: 376px) and (max-width: 750px) {
+              .cv-text{
+                    font-size:1.5rem;
+                }
+
+                h3.cv-sub-headers {
+                    font-size:3rem;
+                }
+        }
+    
+    @media screen and (min-width: 751px) {
+              div.cv-body {
+                padding: 1%;
+            }
+              .cv-text{
+                    font-size:1.25rem;
+                }
+
+                h3.cv-sub-headers {
+                    font-size:3rem;
+                }
+      }
+ 	
 
 

@@ -1,22 +1,117 @@
+
 .blurb{
-    padding-top:5%;
-    padding-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    width:275px;
     height: 100%;
-    margin:3% 13%;
 }
 
-h1 {
-    font-size:5rem;
+ a.about-me{
+            font-size:2rem;
 }
 
 h1.home-text-sen-dev{
     font-family: 'Press Start 2P', cursive;
+    font-size: 3rem;
 }
 
 h1.home-text-grt-comm{
     font-family: 'Tangerine', cursive;
+    font-size: 5rem;
 }
 
 h1.home-text-divrst{
     font-family: 'Barrio', cursive;
+    font-size: 5rem;
 }
+
+/**
+RESPONSIVE LAYOUT CSS
+
+<370: Default
+370-500: Bigger Phone CSS
+501-750: Tablet CSS
+751+: Browser
+
+**/
+
+	 @media screen and (min-width: 376px) and (max-width: 750px) {
+
+            .blurb{
+                position: absolute;
+                margin-left: auto;
+                margin-right: auto;
+                left: 0;
+                right: 0;
+                width:95%;
+                height: 100%;
+            }
+              h1.home-text-sen-dev{
+                font-family: 'Press Start 2P', cursive;
+                font-size: 1rem;
+            }
+
+            h1.home-text-grt-comm{
+                font-family: 'Tangerine', cursive;
+                font-size: 5rem;
+            }
+
+            h1.home-text-divrst{
+                font-family: 'Barrio', cursive;
+                font-size: 2rem;
+            }
+      }
+    
+    @media screen and (min-width: 751px) {
+        .blurb{
+            width:99%;
+        }
+        h1.home-text-sen-dev{
+            font-family: 'Press Start 2P', cursive;
+            font-size: 6rem;
+        }
+
+        h1.home-text-grt-comm{
+            font-family: 'Tangerine', cursive;
+            font-size: 9rem;
+        }
+
+        h1.home-text-divrst{
+            font-family: 'Barrio', cursive;
+            font-size: 7rem;
+        }
+        
+      }
+
+       @media screen and (min-width: 1000px) {
+        h1{
+            font-size: 5rem;
+        }
+
+        .blurb{
+            width:99%;
+            padding: 5%;
+        }
+        
+        a.about-me{
+            font-size:3rem;
+        }
+
+        h1.home-text-sen-dev{
+            font-family: 'Press Start 2P', cursive;
+            font-size: 9rem;
+        }
+
+        h1.home-text-grt-comm{
+            font-family: 'Tangerine', cursive;
+            font-size: 10rem;
+        }
+
+        h1.home-text-divrst{
+            font-family: 'Barrio', cursive;
+            font-size: 11rem;
+        }
+        
+      }

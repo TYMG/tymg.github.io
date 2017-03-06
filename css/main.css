@@ -129,17 +129,13 @@ RESPONSIVE LAYOUT CSS
 **/
 
 	 @media screen and (min-width: 376px) and (max-width: 750px) {
-              	body{
-                      background-color:blue;
-                }
-
+              
                 
       }
     
     @media screen and (min-width: 751px) {
-        body {background-color:green;}
         a {
-            font-size: 3rem;
+            font-size: 2rem;
         }
         
         nav ul li{
@@ -148,10 +144,6 @@ RESPONSIVE LAYOUT CSS
       }
 
       @media screen and (min-width: 1000px) {
-        body {background-color:green;}
-        a {
-            font-size: 3rem;
-        }
         
         nav ul li{
             margin-left: 5%;

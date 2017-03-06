@@ -40,27 +40,25 @@ RESPONSIVE LAYOUT CSS
 	 @media screen and (min-width: 376px) and (max-width: 750px) {
 
             .blurb{
-                position: absolute;
                 margin-left: auto;
                 margin-right: auto;
-                left: 0;
-                right: 0;
+                padding: 1%;
                 width:95%;
                 height: 100%;
             }
               h1.home-text-sen-dev{
                 font-family: 'Press Start 2P', cursive;
-                font-size: 1rem;
+                font-size: 3.5rem;
             }
 
             h1.home-text-grt-comm{
                 font-family: 'Tangerine', cursive;
-                font-size: 5rem;
+                font-size: 8rem;
             }
 
             h1.home-text-divrst{
                 font-family: 'Barrio', cursive;
-                font-size: 2rem;
+                font-size: 5rem;
             }
       }
     
@@ -92,7 +90,7 @@ RESPONSIVE LAYOUT CSS
 
         .blurb{
             width:99%;
-            padding: 5%;
+            padding: 1%;
         }
         
         a.about-me{
@@ -101,7 +99,7 @@ RESPONSIVE LAYOUT CSS
 
         h1.home-text-sen-dev{
             font-family: 'Press Start 2P', cursive;
-            font-size: 9rem;
+            font-size: 8rem;
         }
 
         h1.home-text-grt-comm{
@@ -111,7 +109,7 @@ RESPONSIVE LAYOUT CSS
 
         h1.home-text-divrst{
             font-family: 'Barrio', cursive;
-            font-size: 11rem;
+            font-size: 9rem;
         }
         
       }

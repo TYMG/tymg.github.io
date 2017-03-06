@@ -6,7 +6,7 @@ div.cv-body {
 }
 
 .cv-text{
-    font-size:1.25rem;
+    font-size:2rem;
 }
 
 h3.cv-sub-headers {
@@ -46,5 +46,16 @@ RESPONSIVE LAYOUT CSS
                 }
       }
  	
+   @media screen and (min-width: 975px) {
+              div.cv-body {
+                padding: 1%;
+            }
+              .cv-text{
+                    font-size:2rem;
+                }
 
+                h3.cv-sub-headers {
+                    font-size:3rem;
+                }
+      }
 

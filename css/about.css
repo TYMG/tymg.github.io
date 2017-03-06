@@ -39,3 +39,7 @@ RESPONSIVE LAYOUT CSS
         p {font-size:2rem;}
       }
  	
+
+    @media screen and (min-width:1000px) {
+        p {font-size:2.5rem;}
+      }

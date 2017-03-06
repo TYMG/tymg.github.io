@@ -12,11 +12,11 @@
 }
 
 .project__header{   
-    font-size:4rem;
+    font-size:3rem;
 }
 
 .project__sub-header{
-    font-size:3rem;
+    font-size:2rem;
     text-align: center;
 }
 
@@ -24,3 +24,40 @@
     font-size:1rem;
     text-align: center;
 }
+
+
+/**
+RESPONSIVE LAYOUT CSS
+
+<370: Default
+370-500: Bigger Phone CSS
+501-750: Tablet CSS
+751+: Browser
+
+**/
+
+	 @media screen and (min-width: 376px) and (max-width: 750px) {
+        h3{
+            font-size: 2rem;
+        }
+            
+      }
+    
+    @media screen and (min-width: 751px) {
+        
+        
+      }
+
+       @media screen and (min-width: 1000px) {
+    
+        .portfolio{
+            padding: 2%;
+        }
+        .project__header{   
+            font-size:4rem;
+        }
+        .project__sub-header{
+            font-size:3rem;
+            text-align: center;
+        }
+      }

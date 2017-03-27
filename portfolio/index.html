@@ -6,7 +6,7 @@ layout: default
     <h1> This is what I done did </h1>
 
     <div>
-        <h2 class="project__header collapsed" data-toggle="collapse" data-target="#from-scratch">From Scratch</h2>
+        <h2 class="project__header underline collapsed" data-toggle="collapse" data-target="#from-scratch">From Scratch</h2>
 
         <h3> These are the projects i started from my own design</h3>
         <div id="from-scratch" class="row collapse text-section">
@@ -14,25 +14,25 @@ layout: default
                 <h3 class="project__sub-header">21 Simon</h3>
                 <div class="project__text-element">
                     <p class="project__text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non sapien velit. Maecenas tristique eros risus, sit amet
-                        pulvinar eros feugiat nec. Maecenas sit amet nisi non libero varius sollicitudin. Maecenas placerat
-                        nisi sed nisi venenatis tincidunt. Sed efficitur suscipit lectus non tristique. Duis ac porta ligula,
-                        quis rutrum nisi. Aliquam eu venenatis mauris. Nam viverra vulputate volutpat. Vivamus venenatis
-                        rhoncus justo non blandit. Morbi at felis congue, rutrum mauris ut, dignissim purus. Etiam molestie
-                        urna id malesuada mattis.
+                        My personal attempt at building a Simon Game. I used Angular 2 and RxJS to build the game. It was my first experience with
+                        Observable, specifically Behavior Subjects. The game works pretty well, but I would like fix some things:
                     </p>
+                    <ul>
+                        <li>I would like to add sound effects</li>
+                        <li>And there is a glitch in the game: While the game works, it works if you press the buttons at a certain pace. If the
+                            user presses the buttons to fast, the game will end; even if the user enters the pattern correctly. The reason behind
+                            this glitch is the game creates a clock Observable per button click, which counts 2 secs and emits an event. A better
+                            way to have done it is to have a global clock, and reset the clock with each click.</li> 
+                    </ul>
                 </div>
             </div>
             <div class="col-md-5 col-md-offset-1 project__element">
                 <h3 class="project__sub-header">Favorite YouTube Album Database</h3>
                 <div class="project__text-element">
                     <p class="project__text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non sapien velit. Maecenas tristique eros risus, sit amet
-                        pulvinar eros feugiat nec. Maecenas sit amet nisi non libero varius sollicitudin. Maecenas placerat
-                        nisi sed nisi venenatis tincidunt. Sed efficitur suscipit lectus non tristique. Duis ac porta ligula,
-                        quis rutrum nisi. Aliquam eu venenatis mauris. Nam viverra vulputate volutpat. Vivamus venenatis
-                        rhoncus justo non blandit. Morbi at felis congue, rutrum mauris ut, dignissim purus. Etiam molestie
-                        urna id malesuada mattis.
+                       This was my MEVN (Mongo, Express, VUE, Node) project and first attempt at using Webpack. The goal was to create a basic app
+                        where I could collect links to the random funky albums that exist on YouTube. The interface is very basic, add, 
+                       remove and search. The backend is an Express Server that uses Mongoose to connect MongoDB.
                     </p>
                 </div>
             </div>
@@ -40,32 +40,24 @@ layout: default
     </div>
 
     <div>
-        <h2 class="project__header collapsed" data-toggle="collapse" data-target="#from-tutorial">From Tutorial</h2>
+        <h2 class="project__header underline collapsed" data-toggle="collapse" data-target="#from-tutorial">From Tutorial</h2>
         <h3>Here's is some work I did by following tutorials</h3>
         <div id="from-tutorial" class="row collapse">
             <div class="col-md-5 col-md-offset-1 project__element">
                 <h3 class="project__sub-header">This Website</h3>
                 <div class="project__text-element">
                     <p class="project__text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non sapien velit. Maecenas tristique eros risus, sit amet
-                        pulvinar eros feugiat nec. Maecenas sit amet nisi non libero varius sollicitudin. Maecenas placerat
-                        nisi sed nisi venenatis tincidunt. Sed efficitur suscipit lectus non tristique. Duis ac porta ligula,
-                        quis rutrum nisi. Aliquam eu venenatis mauris. Nam viverra vulputate volutpat. Vivamus venenatis
-                        rhoncus justo non blandit. Morbi at felis congue, rutrum mauris ut, dignissim purus. Etiam molestie
-                        urna id malesuada mattis.
+                        This project was spawned from the
+                        <a href="http://www.aymerick.com/2014/07/22/jekyll-github-pages-bower-bootstrap.html">"Your jekyll site hosted on github pages with bower support"</a> article. 
+                        I've made some changes since finishing the tutorial, but my page has become a sandbox for different ideas such as Responsive Design.
                     </p>
                 </div>
             </div>
             <div class="col-md-5 col-md-offset-1 project__element">
-                <h3 class="project__sub-header">Tour of Heroes</h3>
+                <h3 class="project__sub-header">Heroku Resume</h3>
                 <div class="project__text-element">
                     <p class="project__text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non sapien velit. Maecenas tristique eros risus, sit amet
-                        pulvinar eros feugiat nec. Maecenas sit amet nisi non libero varius sollicitudin. Maecenas placerat
-                        nisi sed nisi venenatis tincidunt. Sed efficitur suscipit lectus non tristique. Duis ac porta ligula,
-                        quis rutrum nisi. Aliquam eu venenatis mauris. Nam viverra vulputate volutpat. Vivamus venenatis
-                        rhoncus justo non blandit. Morbi at felis congue, rutrum mauris ut, dignissim purus. Etiam molestie
-                        urna id malesuada mattis.
+                        I created an resume using Angular 2 following both <a href="https://zimmergren.net/building-a-mean-mongodb-expressjs-angular-and-node-js-api-app-using-typescript-and-host-it-with-heroku/">"Building a MEAN (MongoDB, ExpressJs, Angular and Node.js) api app using TypeScript and host it with Heroku"</a> and Heroku's <a href="https://devcenter.heroku.com/articles/getting-started-with-nodejs#prepare-the-app">"Getting Started on Heroku with Node.js"</a>. It was nice to have the experience of deploying my app to a system.
                     </p>
                 </div>
             </div>
@@ -74,34 +66,8 @@ layout: default
 
     <div>
         <h2 class="project__header collapsed" data-toggle="collapse" data-target="#code-pens">CodePens</h2>
-        <h3>I'm working through the excercises with FreeCodeCamp, some of them are CodePens, here they are.</h3>
-        <div id="code-pens" class="row collapse">
-            <div class="col-md-5 col-md-offset-1 project__element">
-                <h3 class="project__sub-header">This Website</h3>
-                <div class="project__text-element">
-                    <p class="project__text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non sapien velit. Maecenas tristique eros risus, sit amet
-                        pulvinar eros feugiat nec. Maecenas sit amet nisi non libero varius sollicitudin. Maecenas placerat
-                        nisi sed nisi venenatis tincidunt. Sed efficitur suscipit lectus non tristique. Duis ac porta ligula,
-                        quis rutrum nisi. Aliquam eu venenatis mauris. Nam viverra vulputate volutpat. Vivamus venenatis
-                        rhoncus justo non blandit. Morbi at felis congue, rutrum mauris ut, dignissim purus. Etiam molestie
-                        urna id malesuada mattis.
-                    </p>
-                </div>
-            </div>
-            <div class="col-md-5 col-md-offset-1 project__element">
-                <h3 class="project__sub-header">Tour of Heroes</h3>
-                <div class="project__text-element">
-                    <p class="project__text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non sapien velit. Maecenas tristique eros risus, sit amet
-                        pulvinar eros feugiat nec. Maecenas sit amet nisi non libero varius sollicitudin. Maecenas placerat
-                        nisi sed nisi venenatis tincidunt. Sed efficitur suscipit lectus non tristique. Duis ac porta ligula,
-                        quis rutrum nisi. Aliquam eu venenatis mauris. Nam viverra vulputate volutpat. Vivamus venenatis
-                        rhoncus justo non blandit. Morbi at felis congue, rutrum mauris ut, dignissim purus. Etiam molestie
-                        urna id malesuada mattis.
-                    </p>
-                </div>
-            </div>
+        <div class="col-md-5">
+            <h3>I'm working through the excercises with FreeCodeCamp, some of them are CodePens, <a href="http://codepen.io/TYMG/">here they are</a>.</h3>
         </div>
     </div>
 </div>

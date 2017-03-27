@@ -15,7 +15,7 @@
     font-size:3rem;
 }
 
-.project__sub-header{
+.project__sub-header{    
     font-size:2rem;
     text-align: center;
 }
@@ -25,6 +25,9 @@
     text-align: center;
 }
 
+.underline {
+    text-decoration: underline;
+}
 
 /**
 RESPONSIVE LAYOUT CSS
